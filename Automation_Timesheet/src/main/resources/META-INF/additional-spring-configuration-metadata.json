@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "timesheet.username",
+      "type": "java.lang.String",
+      "description": "A description for 'timesheet.username'"
+    },
+    {
+      "name": "timesheet.password",
+      "type": "java.lang.String",
+      "description": "A description for 'timesheet.password'"
+    },
+    {
+      "name": "timesheet.url",
+      "type": "java.lang.String",
+      "description": "A description for 'timesheet.url'"
+    },
+    {
+      "name": "webdriver.path",
+      "type": "java.lang.String",
+      "description": "A description for 'webdriver.path'"
+    }
+  ]
+}
