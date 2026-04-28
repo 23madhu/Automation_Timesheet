@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AutomationTimesheetApplication<Automation_Timesheet>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.timesheet.Automation_Timesheet.AutomationTimesheetApplication",
+            "projectName": "Automation_Timesheet",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
