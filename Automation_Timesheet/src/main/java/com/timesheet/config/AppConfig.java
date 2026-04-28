@@ -15,35 +15,35 @@ public class AppConfig {
     @Value("${timesheet.url}")
     private String url;
 
-    @Value("${timesheet.ddlProjectname}")
+    @Value("${timesheet.ddl.projectname}")
     private String ddlProjectname;
 
-    @Value("${timesheet.ddlmilestone}")
+    @Value("${timesheet.ddl.milestone}")
     private String ddlMilestone;
 
-    @Value("${timesheet.ddltask_group}")
+    @Value("${timesheet.ddl.taskgroup}")
     private String ddlTaskGroup;
 
-    @Value("${timesheet.ddltask_name}")
+    @Value("${timesheet.ddl.taskname}")
     private String ddlTaskName;
 
-    @Value("${timesheet.txtTask_Desc}")
+    @Value("${timesheet.txt.taskdesc}")
     private String txtTaskDesc;
 
-    @Value("${timesheet.ddlTask_Hours}")
+    @Value("${timesheet.ddl.taskhours}")
     private String ddlTaskHours;
 
-    @Value("${timesheet.ddlTaskminutes}")
+    @Value("${timesheet.ddl.taskminutes}")
     private String ddlTaskMinutes;
 
-    public String getUsername() { return username; }
-    public String getPassword() { return password; }
-    public String getUrl() { return url; }
-    public String getDdlProjectname() { return ddlProjectname; }
-    public String getDdlMilestone() { return ddlMilestone; }
-    public String getDdlTaskGroup() { return ddlTaskGroup; }
-    public String getDdlTaskName() { return ddlTaskName; }
-    public String getTxtTaskDesc() { return txtTaskDesc; }
-    public String getDdlTaskHours() { return ddlTaskHours; }
-    public String getDdlTaskMinutes() { return ddlTaskMinutes; }
+    public String getUsername()        { return username; }
+    public String getPassword()        { return password; }
+    public String getUrl()             { return url; }
+    public String getDdlProjectname()  { return ddlProjectname; }
+    public String getDdlMilestone()    { return ddlMilestone; }
+    public String getDdlTaskGroup()    { return ddlTaskGroup; }
+    public String getDdlTaskName()     { return ddlTaskName; }
+    public String getTxtTaskDesc()     { return txtTaskDesc; }
+    public String getDdlTaskHours()    { return ddlTaskHours; }
+    public String getDdlTaskMinutes()  { return ddlTaskMinutes; }
 }
